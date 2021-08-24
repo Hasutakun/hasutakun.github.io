@@ -84,10 +84,6 @@ ul {
     list-style-type: none;
 }
 li {
-    display: inline-block;
-    border-radius: 60px;
-
-    width: 90%;
     margin-bottom: 8px;
 }
 li a {
@@ -96,9 +92,9 @@ li a {
     font-size: 20px;
     padding-left: 3%;
     font-family: 'Lalezar', cursive;
-    border: 5px solid #b3b3b3;
+    border: 5px solid white;
     border-radius: 60px;
-    color: #b3b3b3;
+    color: white;
     height: 50px;
     width: 180px;
     margin-left: -5%;
