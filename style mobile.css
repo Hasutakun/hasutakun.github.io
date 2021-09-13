@@ -24,6 +24,9 @@
   .col-tab-11 {width: 91.66%;}
   .col-tab-12 {width: 100%;}
 body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-image: url('6ca2cd6d09b973b55f617a451718f94d.jpg');
     background-repeat: no-repeat;
     background-size: 100% 1024px;
@@ -40,20 +43,10 @@ div p i {
     font-size: 13px;
 }
 #container {
-    position: fixed;
     border-radius: 20px;
     background-color: rgba(32, 136, 131, 0.6);
-    top: 5%;
     width: 280px;
-    left: 10%;
-    right: 50%;
 }
-/*#container > div {
-    background-color: rgb(170, 43, 43);
-    text-align: center;
-    padding: 20px 0px;
-    font-size: 30px;
-}*/
 div img {
     width: 50%;
     border-radius: 50%;
